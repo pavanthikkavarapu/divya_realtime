@@ -1,0 +1,146 @@
+ .qic_content {
+     border: .5px solid green;
+     box-shadow: 10px 10px 10px 5px #ddddd;
+     background-color: #f7f7f7;
+ }
+ 
+ .logo_box {
+     height: 50px;
+ }
+ 
+ .logo_box img {
+     height: 80%;
+     margin: 5px;
+ }
+ 
+ .add-on .input-group-btn>.btn {
+     border-left-width: 0;
+     left: -2px;
+     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+ }
+ /* stop the glowing blue shadow */
+ 
+ .add-on .form-control:focus {
+     box-shadow: none;
+     -webkit-box-shadow: none;
+     border-color: #cccccc;
+ }
+ 
+ .building_box {
+     padding: 10px;
+ }
+ 
+ .globe_box {
+     padding: 10px;
+ }
+ 
+ .building_box p img {
+     height: 30px;
+ }
+ 
+ .globe_box p img {
+     height: 30px;
+ }
+ 
+ .bg_content {
+     display: inline-flex;
+ }
+ 
+ .notificatioin_div {
+     padding: 10px;
+ }
+ 
+ .settings_content {
+     display: inline-flex;
+     border-right: 1px solid #dddd;
+ }
+ 
+ .settings_div {
+     padding: 12px;
+ }
+ 
+ .settings_div img {
+     height: 20px;
+ }
+ 
+ .right_menu {
+     display: inline-flex;
+ }
+ 
+ .user_profile {
+     padding: 12px;
+ }
+ 
+ .bar_div img {
+     width: 20px;
+     height: 20px;
+     display: inline-flex;
+     padding: 1px;
+     margin-bottom: -30px;
+     margin-left: 10px;
+ }
+ 
+ .content_header {
+     padding: 20px;
+ }
+ 
+ .button {
+     background-color: orangered;
+     border: none;
+     color: white;
+     padding: 9px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     -webkit-transition-duration: 0.4s;
+     /* Safari */
+     transition-duration: 0.4s;
+     cursor: pointer;
+ }
+ 
+ .button3 {
+     background-color: white;
+     color: black;
+     border: 2px solid #f44336;
+ }
+ 
+ .button3:hover {
+     background-color: #f44336;
+     color: white;
+ }
+ 
+ .date_div {
+     padding: 10px;
+ }
+ 
+ .sub_div {
+     background-color: #dddd;
+ }
+ 
+ .sub_menu_header {
+     padding: 20px;
+     width: 100%;
+ }
+ 
+ .sub_menu_header table {
+     background-color: white;
+ }
+ 
+ .date_bac {
+     background-color: orangered;
+ }
+ 
+ .button4 {
+     background-color: orangered;
+ }
+ 
+ .buttonss {
+     background-color: orangered;
+ }
+ 
+ .buttons {
+     background-color: orangered;
+ }

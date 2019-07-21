@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+
+	<head>
+
+	<body>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<div class="container" style="width:100%">
+				<div class="qic_content">
+					<div class="row">
+						<div class="col-md-2">
+							<div class="logo_box">
+								<img src="img/logo.jpeg">
+							</div>
+						</div>
+						<div class="col-md-3">
+							<form class="navbar-form" role="search">
+								<div class="input-group add-on">
+									<div class="input-group-btn">
+										<button class="btn btn-default" type="submit"><i
+												class="glyphicon glyphicon-search"></i></button>
+									</div>
+									<input class="form-control" placeholder="Search" name="srch-term" id="srch-term"
+										type="text">
+
+								</div>
+							</form>
+						</div>
+						<div class="col-md-4">
+							<div class="bg_content">
+								<div class="building_box">
+									<p><img src="img/bilding.jpeg"> Company : Qatar Re</p>
+								</div>
+								<div class="globe_box">
+									<p><img src="img/globe.jpeg"> Division: London</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 right_menu">
+							<div class="settings_content">
+								<div class="notificatioin_div">
+									<img src="img/Group.png">
+								</div>
+								<div class="settings_div">
+									<img src="img/settings.png">
+								</div>
+							</div>
+							<div class="user_profile">
+								<p><img src="img/profile.jpeg">Jennie Thompson</p>
+
+							</div>
+							<div class="bar_div">
+								<img src="img/bar.png">
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+		</nav>
+		<div class="sub_div">
+			<div class="sub_header">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="content_header">
+							<p>Dashboard</p>
+							<h3>Enquiry Log</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sub_menu_header">
+				<table style="width:100%;">
+					<tr>
+						<td>
+							<div class="date_div">
+								<p>Enquiry Date From & To</p>
+
+
+								<div class='input-group date' id='datetimepicker11'>
+									<input type='text' class="form-control" />
+									<span class="input-group-addon">
+										<span class="glyphicon glyphicon-calendar">
+										</span>
+									</span>
+								</div>
+
+
+							</div>
+
+						</td>
+						<td>
+							<div class="date_div">
+								<p>Underwriter</p>
+								<select class="form-control">
+									<option>Alister Smith
+									<option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<div class="date_div">
+								<p>UW Year</p>
+								<select class="form-control">
+									<option>2019</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<div class="date_div">
+								<p>Method of Placement</p>
+								<select class="form-control">
+									<option>All</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<div class="date_div">
+								<p>Placing</p>
+								<select class="form-control">
+									<option>All</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<div class="date_div">
+								<p>Status</p>
+								<select class="form-control">
+									<option>All</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<div class="date_div">
+								<button class="button button3">Clear</button>
+							</div>
+
+						</td>
+						<td>
+							<div class="date_bac">
+								<button class="button button4">search</button>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="sub_menu_header">
+				<table style="width: 100%;">
+					<tr>
+						<td style="color: red; border-bottom: 1px solid red; text-align: center;">
+							<label>All</label>
+						</td>
+						<td>
+							<label>Enquiry</label>
+						</td>
+						<td>
+							<label>Skeleton</label>
+						</td>
+						<td>
+							<label>Policy</label>
+						</td>
+						<td>
+							<form class="navbar-form" role="search">
+								<div class="input-group add-on">
+									<div class="input-group-btn">
+										<button class="btn btn-default" type="submit"><i
+												class="glyphicon glyphicon-search"></i></button>
+									</div>
+									<input class="form-control" placeholder="Search" name="srch-term" id="srch-term"
+										type="text">
+
+								</div>
+							</form>
+						</td>
+						<td>
+							<button class="button buttons">:Add Enquiry</button>
+						</td>
+						<td>
+							<button class="button buttonss">:Add Skeleton</button>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		</div>
+		</div>
+		<script type="text/javascript">
+			$(function () {
+				$('#datetimepicker11').datetimepicker({
+					daysOfWeekDisabled: [0, 6]
+				});
+			});
+		</script>
+
+	</body>
+
+</html>
